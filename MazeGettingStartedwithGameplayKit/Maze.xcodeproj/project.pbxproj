@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113D0C6D1B17C45100151E17 /* AAPLEnemyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A3C3DB1AEAD82700B1FD62 /* AAPLEnemyState.m */; };
+		1141FF861AE58AFD001AA25A /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1141FF851AE58AFD001AA25A /* AAPLAppDelegate.m */; };
+		1141FF891AE58AFD001AA25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1141FF881AE58AFD001AA25A /* main.m */; };
+		1141FF901AE58AFD001AA25A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1141FF8F1AE58AFD001AA25A /* Images.xcassets */; };
+		1141FF931AE58AFD001AA25A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1141FF911AE58AFD001AA25A /* MainMenu.xib */; };
+		1141FFB11AE58BC6001AA25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1141FFB01AE58BC6001AA25A /* main.m */; };
+		1141FFB41AE58BC6001AA25A /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1141FFB31AE58BC6001AA25A /* AAPLAppDelegate.m */; };
+		1141FFBC1AE58BC6001AA25A /* AAPLGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1141FFBB1AE58BC6001AA25A /* AAPLGameViewController.m */; };
+		1141FFBF1AE58BC6001AA25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1141FFBD1AE58BC6001AA25A /* Main.storyboard */; };
+		1141FFC11AE58BC6001AA25A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1141FFC01AE58BC6001AA25A /* Images.xcassets */; };
+		1141FFC41AE58BC6001AA25A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1141FFC21AE58BC6001AA25A /* LaunchScreen.xib */; };
+		116C7B981AEF02E9009EB2F8 /* AAPLPlayerControlComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 116C7B971AEF02E9009EB2F8 /* AAPLPlayerControlComponent.m */; };
+		116C7B991AEF02E9009EB2F8 /* AAPLPlayerControlComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 116C7B971AEF02E9009EB2F8 /* AAPLPlayerControlComponent.m */; };
+		11775C6D1AE58E9500E81B31 /* AAPLGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 11775C6C1AE58E9500E81B31 /* AAPLGame.m */; };
+		11775C6E1AE58E9500E81B31 /* AAPLGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 11775C6C1AE58E9500E81B31 /* AAPLGame.m */; };
+		11A3C3DC1AEAD82700B1FD62 /* AAPLEnemyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A3C3DB1AEAD82700B1FD62 /* AAPLEnemyState.m */; };
+		11B55DCE1AE9F2E100471D70 /* AAPLSpriteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DCD1AE9F2E100471D70 /* AAPLSpriteComponent.m */; };
+		11B55DCF1AE9F2E100471D70 /* AAPLSpriteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DCD1AE9F2E100471D70 /* AAPLSpriteComponent.m */; };
+		11B55DD21AE9F3A400471D70 /* AAPLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DD11AE9F3A400471D70 /* AAPLScene.m */; };
+		11B55DD31AE9F3A400471D70 /* AAPLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DD11AE9F3A400471D70 /* AAPLScene.m */; };
+		11B55DD61AE9F97100471D70 /* AAPLEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DD51AE9F97100471D70 /* AAPLEntity.m */; };
+		11B55DD71AE9F97100471D70 /* AAPLEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DD51AE9F97100471D70 /* AAPLEntity.m */; };
+		11B55DDA1AEA933400471D70 /* AAPLIntelligenceComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DD91AEA933400471D70 /* AAPLIntelligenceComponent.m */; };
+		11B55DDB1AEA933400471D70 /* AAPLIntelligenceComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DD91AEA933400471D70 /* AAPLIntelligenceComponent.m */; };
+		11B55DDE1AEA948C00471D70 /* AAPLEnemyChaseState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DDD1AEA948C00471D70 /* AAPLEnemyChaseState.m */; };
+		11B55DDF1AEA948C00471D70 /* AAPLEnemyChaseState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DDD1AEA948C00471D70 /* AAPLEnemyChaseState.m */; };
+		11B55DE21AEA963E00471D70 /* AAPLEnemyFleeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DE11AEA963E00471D70 /* AAPLEnemyFleeState.m */; };
+		11B55DE31AEA963E00471D70 /* AAPLEnemyFleeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DE11AEA963E00471D70 /* AAPLEnemyFleeState.m */; };
+		11B55DE61AEA964E00471D70 /* AAPLEnemyDefeatedState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DE51AEA964E00471D70 /* AAPLEnemyDefeatedState.m */; };
+		11B55DE71AEA964E00471D70 /* AAPLEnemyDefeatedState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DE51AEA964E00471D70 /* AAPLEnemyDefeatedState.m */; };
+		11B55DEA1AEA966B00471D70 /* AAPLEnemyRespawnState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DE91AEA966B00471D70 /* AAPLEnemyRespawnState.m */; };
+		11B55DEB1AEA966B00471D70 /* AAPLEnemyRespawnState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55DE91AEA966B00471D70 /* AAPLEnemyRespawnState.m */; };
+		11BC3DCA1AEEF3D9008E0AFA /* AAPLSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BC3DC91AEEF3D9008E0AFA /* AAPLSpriteNode.m */; };
+		11BC3DCB1AEEF3D9008E0AFA /* AAPLSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BC3DC91AEEF3D9008E0AFA /* AAPLSpriteNode.m */; };
+		11C99D991AE83EB40043B729 /* AAPLLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C99D981AE83EB40043B729 /* AAPLLevel.m */; };
+		11C99D9A1AE83EB40043B729 /* AAPLLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C99D981AE83EB40043B729 /* AAPLLevel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112DA2AF1AE83AFA00C972A8 /* AAPLLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLLevel.h; sourceTree = "<group>"; };
+		113D0C6E1B19070400151E17 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		113D0C6F1B19070400151E17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1141FF811AE58AFD001AA25A /* Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1141FF841AE58AFD001AA25A /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
+		1141FF851AE58AFD001AA25A /* AAPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
+		1141FF881AE58AFD001AA25A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1141FF8F1AE58AFD001AA25A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1141FF921AE58AFD001AA25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1141FF941AE58AFD001AA25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1141FFAD1AE58BC6001AA25A /* Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1141FFB01AE58BC6001AA25A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1141FFB21AE58BC6001AA25A /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
+		1141FFB31AE58BC6001AA25A /* AAPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
+		1141FFBA1AE58BC6001AA25A /* AAPLGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLGameViewController.h; sourceTree = "<group>"; };
+		1141FFBB1AE58BC6001AA25A /* AAPLGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AAPLGameViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1141FFBE1AE58BC6001AA25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1141FFC01AE58BC6001AA25A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1141FFC31AE58BC6001AA25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1141FFC51AE58BC6001AA25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116C7B961AEF02E9009EB2F8 /* AAPLPlayerControlComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AAPLPlayerControlComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		116C7B971AEF02E9009EB2F8 /* AAPLPlayerControlComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AAPLPlayerControlComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		11775C6B1AE58E9500E81B31 /* AAPLGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLGame.h; sourceTree = "<group>"; };
+		11775C6C1AE58E9500E81B31 /* AAPLGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AAPLGame.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		11A3C3DA1AEAD82700B1FD62 /* AAPLEnemyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEnemyState.h; sourceTree = "<group>"; };
+		11A3C3DB1AEAD82700B1FD62 /* AAPLEnemyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEnemyState.m; sourceTree = "<group>"; };
+		11B55DCC1AE9F2E100471D70 /* AAPLSpriteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AAPLSpriteComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		11B55DCD1AE9F2E100471D70 /* AAPLSpriteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AAPLSpriteComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		11B55DD01AE9F3A400471D70 /* AAPLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLScene.h; sourceTree = "<group>"; };
+		11B55DD11AE9F3A400471D70 /* AAPLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AAPLScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		11B55DD41AE9F97100471D70 /* AAPLEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEntity.h; sourceTree = "<group>"; };
+		11B55DD51AE9F97100471D70 /* AAPLEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEntity.m; sourceTree = "<group>"; };
+		11B55DD81AEA933400471D70 /* AAPLIntelligenceComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLIntelligenceComponent.h; sourceTree = "<group>"; };
+		11B55DD91AEA933400471D70 /* AAPLIntelligenceComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLIntelligenceComponent.m; sourceTree = "<group>"; };
+		11B55DDC1AEA948C00471D70 /* EnemyStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyStates.h; sourceTree = "<group>"; };
+		11B55DDD1AEA948C00471D70 /* AAPLEnemyChaseState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEnemyChaseState.m; sourceTree = "<group>"; };
+		11B55DE11AEA963E00471D70 /* AAPLEnemyFleeState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEnemyFleeState.m; sourceTree = "<group>"; };
+		11B55DE51AEA964E00471D70 /* AAPLEnemyDefeatedState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEnemyDefeatedState.m; sourceTree = "<group>"; };
+		11B55DE91AEA966B00471D70 /* AAPLEnemyRespawnState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEnemyRespawnState.m; sourceTree = "<group>"; };
+		11BC3DC81AEEF3D9008E0AFA /* AAPLSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLSpriteNode.h; sourceTree = "<group>"; };
+		11BC3DC91AEEF3D9008E0AFA /* AAPLSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLSpriteNode.m; sourceTree = "<group>"; };
+		11C99D981AE83EB40043B729 /* AAPLLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLLevel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1141FF7E1AE58AFD001AA25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1141FFAA1AE58BC6001AA25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1141FF781AE58AFD001AA25A = {
+			isa = PBXGroup;
+			children = (
+				113D0C6F1B19070400151E17 /* README.md */,
+				113D0C6E1B19070400151E17 /* LICENSE.txt */,
+				1141FFA81AE58B59001AA25A /* Maze - Shared */,
+				1141FF831AE58AFD001AA25A /* OSX */,
+				1141FFAE1AE58BC6001AA25A /* iOS */,
+				1141FF821AE58AFD001AA25A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1141FF821AE58AFD001AA25A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1141FF811AE58AFD001AA25A /* Maze.app */,
+				1141FFAD1AE58BC6001AA25A /* Maze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1141FF831AE58AFD001AA25A /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				1141FF841AE58AFD001AA25A /* AAPLAppDelegate.h */,
+				1141FF851AE58AFD001AA25A /* AAPLAppDelegate.m */,
+				1141FF8F1AE58AFD001AA25A /* Images.xcassets */,
+				1141FF911AE58AFD001AA25A /* MainMenu.xib */,
+				1141FF941AE58AFD001AA25A /* Info.plist */,
+				1141FF871AE58AFD001AA25A /* Supporting Files */,
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
+		1141FF871AE58AFD001AA25A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1141FF881AE58AFD001AA25A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1141FFA81AE58B59001AA25A /* Maze - Shared */ = {
+			isa = PBXGroup;
+			children = (
+				11775C6B1AE58E9500E81B31 /* AAPLGame.h */,
+				11775C6C1AE58E9500E81B31 /* AAPLGame.m */,
+				112DA2AF1AE83AFA00C972A8 /* AAPLLevel.h */,
+				11C99D981AE83EB40043B729 /* AAPLLevel.m */,
+				11BC3DCC1AEEF3E6008E0AFA /* SpriteKit */,
+				11B55DED1AEA96C300471D70 /* Entity-Component */,
+				11B55DEC1AEA96B300471D70 /* Enemy State Machine */,
+			);
+			name = "Maze - Shared";
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1141FFAE1AE58BC6001AA25A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1141FFB21AE58BC6001AA25A /* AAPLAppDelegate.h */,
+				1141FFB31AE58BC6001AA25A /* AAPLAppDelegate.m */,
+				1141FFBA1AE58BC6001AA25A /* AAPLGameViewController.h */,
+				1141FFBB1AE58BC6001AA25A /* AAPLGameViewController.m */,
+				1141FFBD1AE58BC6001AA25A /* Main.storyboard */,
+				1141FFC01AE58BC6001AA25A /* Images.xcassets */,
+				1141FFC21AE58BC6001AA25A /* LaunchScreen.xib */,
+				1141FFC51AE58BC6001AA25A /* Info.plist */,
+				1141FFAF1AE58BC6001AA25A /* Supporting Files */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		1141FFAF1AE58BC6001AA25A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1141FFB01AE58BC6001AA25A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11B55DEC1AEA96B300471D70 /* Enemy State Machine */ = {
+			isa = PBXGroup;
+			children = (
+				11B55DDC1AEA948C00471D70 /* EnemyStates.h */,
+				11A3C3DA1AEAD82700B1FD62 /* AAPLEnemyState.h */,
+				11A3C3DB1AEAD82700B1FD62 /* AAPLEnemyState.m */,
+				11B55DDD1AEA948C00471D70 /* AAPLEnemyChaseState.m */,
+				11B55DE11AEA963E00471D70 /* AAPLEnemyFleeState.m */,
+				11B55DE51AEA964E00471D70 /* AAPLEnemyDefeatedState.m */,
+				11B55DE91AEA966B00471D70 /* AAPLEnemyRespawnState.m */,
+			);
+			name = "Enemy State Machine";
+			sourceTree = "<group>";
+		};
+		11B55DED1AEA96C300471D70 /* Entity-Component */ = {
+			isa = PBXGroup;
+			children = (
+				11B55DD41AE9F97100471D70 /* AAPLEntity.h */,
+				11B55DD51AE9F97100471D70 /* AAPLEntity.m */,
+				11B55DCC1AE9F2E100471D70 /* AAPLSpriteComponent.h */,
+				11B55DCD1AE9F2E100471D70 /* AAPLSpriteComponent.m */,
+				116C7B961AEF02E9009EB2F8 /* AAPLPlayerControlComponent.h */,
+				116C7B971AEF02E9009EB2F8 /* AAPLPlayerControlComponent.m */,
+				11B55DD81AEA933400471D70 /* AAPLIntelligenceComponent.h */,
+				11B55DD91AEA933400471D70 /* AAPLIntelligenceComponent.m */,
+			);
+			name = "Entity-Component";
+			sourceTree = "<group>";
+		};
+		11BC3DCC1AEEF3E6008E0AFA /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				11BC3DC81AEEF3D9008E0AFA /* AAPLSpriteNode.h */,
+				11BC3DC91AEEF3D9008E0AFA /* AAPLSpriteNode.m */,
+				11B55DD01AE9F3A400471D70 /* AAPLScene.h */,
+				11B55DD11AE9F3A400471D70 /* AAPLScene.m */,
+			);
+			name = SpriteKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1141FF801AE58AFD001AA25A /* Maze-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1141FFA21AE58AFD001AA25A /* Build configuration list for PBXNativeTarget "Maze-OSX" */;
+			buildPhases = (
+				1141FF7D1AE58AFD001AA25A /* Sources */,
+				1141FF7E1AE58AFD001AA25A /* Frameworks */,
+				1141FF7F1AE58AFD001AA25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maze-OSX";
+			productName = Maze;
+			productReference = 1141FF811AE58AFD001AA25A /* Maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1141FFAC1AE58BC6001AA25A /* Maze-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1141FFD11AE58BC6001AA25A /* Build configuration list for PBXNativeTarget "Maze-iOS" */;
+			buildPhases = (
+				1141FFA91AE58BC6001AA25A /* Sources */,
+				1141FFAA1AE58BC6001AA25A /* Frameworks */,
+				1141FFAB1AE58BC6001AA25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maze-iOS";
+			productName = Mazeios;
+			productReference = 1141FFAD1AE58BC6001AA25A /* Maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1141FF791AE58AFD001AA25A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					1141FF801AE58AFD001AA25A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1141FFAC1AE58BC6001AA25A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 1141FF7C1AE58AFD001AA25A /* Build configuration list for PBXProject "Maze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1141FF781AE58AFD001AA25A;
+			productRefGroup = 1141FF821AE58AFD001AA25A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1141FF801AE58AFD001AA25A /* Maze-OSX */,
+				1141FFAC1AE58BC6001AA25A /* Maze-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1141FF7F1AE58AFD001AA25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1141FF901AE58AFD001AA25A /* Images.xcassets in Resources */,
+				1141FF931AE58AFD001AA25A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1141FFAB1AE58BC6001AA25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1141FFC41AE58BC6001AA25A /* LaunchScreen.xib in Resources */,
+				1141FFC11AE58BC6001AA25A /* Images.xcassets in Resources */,
+				1141FFBF1AE58BC6001AA25A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1141FF7D1AE58AFD001AA25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BC3DCA1AEEF3D9008E0AFA /* AAPLSpriteNode.m in Sources */,
+				11B55DDA1AEA933400471D70 /* AAPLIntelligenceComponent.m in Sources */,
+				11B55DDE1AEA948C00471D70 /* AAPLEnemyChaseState.m in Sources */,
+				11B55DE21AEA963E00471D70 /* AAPLEnemyFleeState.m in Sources */,
+				116C7B981AEF02E9009EB2F8 /* AAPLPlayerControlComponent.m in Sources */,
+				11B55DCE1AE9F2E100471D70 /* AAPLSpriteComponent.m in Sources */,
+				1141FF891AE58AFD001AA25A /* main.m in Sources */,
+				11B55DEA1AEA966B00471D70 /* AAPLEnemyRespawnState.m in Sources */,
+				1141FF861AE58AFD001AA25A /* AAPLAppDelegate.m in Sources */,
+				11B55DE61AEA964E00471D70 /* AAPLEnemyDefeatedState.m in Sources */,
+				11C99D991AE83EB40043B729 /* AAPLLevel.m in Sources */,
+				11B55DD21AE9F3A400471D70 /* AAPLScene.m in Sources */,
+				11775C6D1AE58E9500E81B31 /* AAPLGame.m in Sources */,
+				11A3C3DC1AEAD82700B1FD62 /* AAPLEnemyState.m in Sources */,
+				11B55DD61AE9F97100471D70 /* AAPLEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1141FFA91AE58BC6001AA25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BC3DCB1AEEF3D9008E0AFA /* AAPLSpriteNode.m in Sources */,
+				11B55DD71AE9F97100471D70 /* AAPLEntity.m in Sources */,
+				11C99D9A1AE83EB40043B729 /* AAPLLevel.m in Sources */,
+				11775C6E1AE58E9500E81B31 /* AAPLGame.m in Sources */,
+				116C7B991AEF02E9009EB2F8 /* AAPLPlayerControlComponent.m in Sources */,
+				11B55DEB1AEA966B00471D70 /* AAPLEnemyRespawnState.m in Sources */,
+				113D0C6D1B17C45100151E17 /* AAPLEnemyState.m in Sources */,
+				11B55DCF1AE9F2E100471D70 /* AAPLSpriteComponent.m in Sources */,
+				11B55DD31AE9F3A400471D70 /* AAPLScene.m in Sources */,
+				11B55DDF1AEA948C00471D70 /* AAPLEnemyChaseState.m in Sources */,
+				1141FFBC1AE58BC6001AA25A /* AAPLGameViewController.m in Sources */,
+				1141FFB41AE58BC6001AA25A /* AAPLAppDelegate.m in Sources */,
+				11B55DE71AEA964E00471D70 /* AAPLEnemyDefeatedState.m in Sources */,
+				1141FFB11AE58BC6001AA25A /* main.m in Sources */,
+				11B55DDB1AEA933400471D70 /* AAPLIntelligenceComponent.m in Sources */,
+				11B55DE31AEA963E00471D70 /* AAPLEnemyFleeState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1141FF911AE58AFD001AA25A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1141FF921AE58AFD001AA25A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1141FFBD1AE58BC6001AA25A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1141FFBE1AE58BC6001AA25A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1141FFC21AE58BC6001AA25A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1141FFC31AE58BC6001AA25A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1141FFA01AE58AFD001AA25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1141FFA11AE58AFD001AA25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1141FFA31AE58AFD001AA25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Maze";
+				PRODUCT_NAME = Maze;
+			};
+			name = Debug;
+		};
+		1141FFA41AE58AFD001AA25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Maze";
+				PRODUCT_NAME = Maze;
+			};
+			name = Release;
+		};
+		1141FFD21AE58BC6001AA25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Maze";
+				PRODUCT_NAME = Maze;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1141FFD31AE58BC6001AA25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Maze";
+				PRODUCT_NAME = Maze;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1141FF7C1AE58AFD001AA25A /* Build configuration list for PBXProject "Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1141FFA01AE58AFD001AA25A /* Debug */,
+				1141FFA11AE58AFD001AA25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1141FFA21AE58AFD001AA25A /* Build configuration list for PBXNativeTarget "Maze-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1141FFA31AE58AFD001AA25A /* Debug */,
+				1141FFA41AE58AFD001AA25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1141FFD11AE58BC6001AA25A /* Build configuration list for PBXNativeTarget "Maze-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1141FFD21AE58BC6001AA25A /* Debug */,
+				1141FFD31AE58BC6001AA25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1141FF791AE58AFD001AA25A /* Project object */;
+}

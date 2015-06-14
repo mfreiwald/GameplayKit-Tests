@@ -42,7 +42,7 @@
     // Create a behavior that makes the agent follow along the path. 
     GKPath *path = [GKPath pathWithPoints:points count:10 radius:AAPLDefaultAgentRadius cyclical:YES];
 
-    follower.agent.behavior = [GKBehavior behaviorWithGoal:[GKGoal goalToFollowPath:path maxPredictionTime:1.5 forward:YES] weight:1];
+    follower.agent.behavior = [GKBehavior behaviorWithGoal:[GKGoal goalToFollowPath:path maxPredictionTime:2.0 forward:NO] weight:1];
     [self.agentSystem addComponent:follower.agent];
     
     // Draw the path.

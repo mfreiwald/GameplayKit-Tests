@@ -84,6 +84,8 @@
         how many moves have been made, or devising your own metric for how
         close a player is to winning.
     */
+    NSLog(@"%@", [self debugDescription]);
+    
     if ([self isWinForPlayer:player]) {
         return 100;
     }

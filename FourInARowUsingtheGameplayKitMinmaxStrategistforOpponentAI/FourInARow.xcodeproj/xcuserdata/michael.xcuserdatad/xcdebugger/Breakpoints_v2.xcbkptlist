@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
-            landmarkName = "@implementation AAPLBoard(AAPLMinmaxStrategy)"
+            landmarkName = "@implementation AAPLBoard(MinmaxStrategy)"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>

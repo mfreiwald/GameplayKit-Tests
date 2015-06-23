@@ -12,16 +12,16 @@ import CoreGraphics
 struct GameplayConfiguration {
     struct Beam {
         /// The distance (in points) over which the beam can be fired.
-        static let arcLength: CGFloat = 300.0
+        static let arcLength: CGFloat = 1300.0
         
         /// The arc angle (in radians) within which the beam is effective.
         static let arcAngle = CGFloat(45.0 * (M_PI / 180.0))
         
         /// The maximum number of seconds for which the beam can be fired before recharging.
-        static let maximumFireDuration: NSTimeInterval = 2.0
+        static let maximumFireDuration: NSTimeInterval = 12.0
         
         /// The amount of charge points the beam drains from `TaskBot`s per second.
-        static let chargeLossPerSecond = 90.0
+        static let chargeLossPerSecond = 190.0
         
         /// The length of time that the beam takes to recharge when it is fully depleted.
         static let coolDownDuration: NSTimeInterval = 1.0
@@ -29,7 +29,7 @@ struct GameplayConfiguration {
 
     struct PlayerBot {
         /// The movement speed (in points per second) for the `PlayerBot`.
-        static let movementSpeed: CGFloat = 210.0
+        static let movementSpeed: CGFloat = 1510.0
 
         /// The angular rotation speed (in radians per second) for the `PlayerBot`.
         static let angularSpeed = CGFloat(M_PI) * 1.8

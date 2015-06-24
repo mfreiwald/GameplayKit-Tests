@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C867BEB1B372483001AF82E /* iOSGameplayKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iOSGameplayKit.playground; sourceTree = "<group>"; };
 		4C8B73ED1B2DCC1400232783 /* GameplaySingleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameplaySingleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8B73F01B2DCC1400232783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8B73F21B2DCC1400232783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 				4C8B73F71B2DCC1400232783 /* Assets.xcassets */,
 				4C8B73F91B2DCC1400232783 /* LaunchScreen.storyboard */,
 				4C8B73FC1B2DCC1400232783 /* Info.plist */,
+				4C867BEB1B372483001AF82E /* iOSGameplayKit.playground */,
 			);
 			path = GameplaySingleApp;
 			sourceTree = "<group>";
@@ -285,6 +287,7 @@
 				4C8B74011B2DCC1400232783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

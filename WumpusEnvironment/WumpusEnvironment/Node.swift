@@ -17,6 +17,3 @@ enum NodeType: Int {
     case Hole
 }
 
-class Node: GKGridGraphNode {
-    
-}

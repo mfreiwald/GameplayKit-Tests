@@ -186,4 +186,92 @@ const static NSInteger AAPLCountToWin = 4;
     return NO;
 }
 
+- (BOOL)oneLeftForPlayer:(AAPLPlayer *)player {
+    AAPLChip chip = player.chip;
+    
+    // Detect horizontal wins.
+    for (NSInteger row = 0; row < AAPLBoardHeight; row++) {
+        NSInteger runCount = 0;
+        for (NSInteger column = 0; column < AAPLBoardWidth; column++) {
+            if ([self chipInColumn:column row:row] == chip) {
+                if (++runCount == AAPLCountToWin-1) {
+                    return YES;
+                }
+            }
+            else if (column >= AAPLBoardWidth - AAPLCountToWin - 1) {
+                // No need to check for runs that start past this column.
+                break;
+            }
+            else {
+                // Run isn't continuing, reset counter.
+                runCount = 0;
+            }
+        }
+    }
+    
+    // Detect vertical wins.
+    for (NSInteger column = 0; column < AAPLBoardWidth; column++) {
+        NSInteger runCount = 0;
+        for (NSInteger row = 0; row < AAPLBoardHeight; row++) {
+            if ([self chipInColumn:column row:row] == chip) {
+                if (++runCount == AAPLCountToWin - 1) {
+                    return YES;
+                }
+            }
+            else if (row >= AAPLBoardHeight - AAPLCountToWin - 1) {
+                // No need to check for runs that start past this row.
+                break;
+            }
+            else {
+                // Run isn't continuing, reset counter.
+                runCount = 0;
+            }
+        }
+    }
+    
+    /*
+     Detect diagonal (northeast) wins.
+     Start by looking for a matching chip in column-major order.
+     */
+    for (NSInteger column = 0; column <= (AAPLBoardWidth - AAPLCountToWin - 1); column++) {
+        for (NSInteger row = 0; row <= (AAPLBoardHeight - AAPLCountToWin - 1); row++) {
+            if ([self chipInColumn:column row:row] == chip) {
+                // Found a matching chip, switch to searching diagonal.
+                NSInteger runCount = 1;
+                
+                for (NSInteger i = 1; i < AAPLCountToWin - 1; i++) {
+                    if ([self chipInColumn:(column + i) row:(row + i)] == chip) {
+                        if (++runCount == AAPLCountToWin - 1) {
+                            return YES;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /*
+     Detect diagonal (southeast) wins. Start by looking for a matching chip in
+     column-major order.
+     */
+    for (NSInteger column = 0; column <= (AAPLBoardWidth - AAPLCountToWin - 1); column++) {
+        for (NSInteger row = (AAPLBoardHeight - AAPLCountToWin - 1) + 1; row > 0; row--) {
+            if ([self chipInColumn:column row:row] == chip) {
+                // Found a matching chip, switch to searching diagonal.
+                NSInteger runCount = 1;
+                for (NSInteger i = 1; i < AAPLCountToWin - 1; i++) {
+                    if ([self chipInColumn:(column + i) row:(row - i)] == chip) {
+                        if (++runCount == AAPLCountToWin - 1) {
+                            return YES;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // No win detected by this point => no win on board.
+    return NO;
+}
+
 @end

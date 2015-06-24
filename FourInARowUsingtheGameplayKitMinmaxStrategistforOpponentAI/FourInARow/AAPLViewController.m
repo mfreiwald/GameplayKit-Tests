@@ -36,7 +36,7 @@
 	self.strategist = [[GKMinmaxStrategist alloc] init];
 
     // 4 AI turns + 3 human turns in between = 7 turns for dominant AI (if heuristic good).
-	self.strategist.maxLookAheadDepth = 7;
+	self.strategist.maxLookAheadDepth = 8;
 	self.strategist.randomSource = [[GKARC4RandomSource alloc] init];
 
     NSMutableArray *columns = [NSMutableArray arrayWithCapacity:AAPLBoard.width];
@@ -167,7 +167,7 @@
     self.navigationController.navigationBar.backgroundColor = self.board.currentPlayer.color;
     
 #if USE_AI_PLAYER
-    if (self.board.currentPlayer.chip == AAPLChipBlack) {
+    //if (self.board.currentPlayer.chip == AAPLChipBlack) {
         // Disable buttons & show spinner while AI player "thinks".
         for (UIButton *button in self.columnButtons) {
             button.enabled = NO;
@@ -197,7 +197,7 @@
 			});
 
 		});
-    }
+    //}
 #endif
 }
 

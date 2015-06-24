@@ -78,13 +78,13 @@
 }
 
 - (NSInteger)scoreForPlayer:(AAPLPlayer *)player {
+    NSLog(@"scoreForPlayer %@", player.name);
     /*
         This heuristic isn't very smart -- it sees an imminent win/loss and
         a future win/loss as equivalent. Try weighting the score based on 
         how many moves have been made, or devising your own metric for how
         close a player is to winning.
     */
-    NSLog(@"%@", [self debugDescription]);
     
     if ([self isWinForPlayer:player]) {
         return 100;
@@ -97,7 +97,16 @@
             A smarter heuristic would do more with this case:
             The game isn't won yet, but how close is a win?
         */
-        return 0;
+        
+        
+        // check if player can verhinder that opponent make 4
+        if ( [self oneLeftForPlayer:player] ) {
+            return 25;
+        } else if ([self oneLeftForPlayer:player.opponent]) {
+            return -25;
+        } else {
+            return 0;
+        }
     }
 }
 

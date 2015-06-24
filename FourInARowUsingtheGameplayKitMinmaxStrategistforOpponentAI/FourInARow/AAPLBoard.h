@@ -22,6 +22,7 @@
 - (void)addChip:(AAPLChip)chip inColumn:(NSInteger)column;
 - (BOOL)isFull;
 - (BOOL)isWinForPlayer:(AAPLPlayer *)player;
+- (BOOL)oneLeftForPlayer:(AAPLPlayer *)player;
 
 - (void)updateChipsFromBoard:(AAPLBoard *)otherBoard;
 
